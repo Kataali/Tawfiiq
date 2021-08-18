@@ -2,7 +2,7 @@ body {
   background-color: #fff7ae;
   margin: 0;
   font-family: georgia, serif;
-  font-size: 18px;
+  font-size: 24px;
   text-align: center;
   line-height: 2;
 
@@ -36,32 +36,60 @@ h1 {
   width: 45%
 }
 .skill{
-  width: 50%;
-  margin: auto;
-  margin: 100px;
+  width: 35%;
+  margin: 200px auto;
+  font-size: 16px;
 }
 h3 {
   color: #39a2db;
   font-weight: 900;
 }
 .mathimg{
-  width: 25%;
+  width: 35%;
 float: left;
+margin-top: 15px;
 }
 .codeimg{
-  width: 20%;
-  float: left;
+  width: 35%;
+  float: right;
+  margin-top: 0;
+}
+.pen{
+  margin: 200px auto;
 }
 
 .pencil {
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
+  margin-bottom: -40px
 }
 img{
   margin: 50px;
   width: 50%;
 }
 .lastdiv{
-  margin: 20px;
+  margin: 0;
   background-color: brown;
+  height: 200px;
+  padding-top: 20px;
+
+}
+button{
+  margin: auto auto 25px auto;
+  background-color: #39a2db;
+  font-size: 20px;
+  border: solid 4px;
+  color: white;
+  border-style: ridge;
+}
+button:hover{
+  color: brown;
+}
+a{
+  margin: 30px 20px;
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color: lightgreen;
 }

@@ -106,6 +106,9 @@ a:hover {
 }
 
 @media (max-width:1024px) {
+  .para{
+    clear: right;
+  }
   .skill {
     width: 75%;
     text-align: center;

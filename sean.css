@@ -5,20 +5,19 @@ body {
   font-size: 24px;
   text-align: center;
   line-height: 2;
-
 }
 
 h1 {
   display: inline-block;
   text-align: center;
-  font-family:brush script mt, cursive;
+  font-family: brush script mt, cursive;
   font-size: 100px;
   margin: auto auto 10px auto;
 }
 
 .tain {
-  width: 500px;
-  height: 500px;
+  width: 800px;
+  height: 800px;
 }
 
 .mon {
@@ -33,48 +32,57 @@ h1 {
 
 .nerd {
   margin: 60 auto 60 auto;
-  width: 45%
+  width: 45%;
+  border-radius: 100%;
 }
-.skill{
-  width: 35%;
+
+.skill {
+  width: 60%;
   margin: 200px auto;
-  font-size: 16px;
+  font-size: 24px;
 }
+
 h3 {
   color: #39a2db;
   font-weight: 900;
 }
-.mathimg{
-  width: 35%;
-float: left;
-margin-top: 15px;
+
+.mathimg {
+  width: 15%;
+  float: left;
+  margin-top: 15px;
 }
-.codeimg{
-  width: 35%;
+
+.codeimg {
+  width: 15%;
   float: right;
   margin-top: 0;
 }
-.pen{
+
+.pen {
   margin: 200px auto;
 }
 
 .pencil {
-  height: 100px;
-  width: 100px;
+
+  height: 200px;
+  width: 200px;
   margin-bottom: -40px
 }
-img{
+
+img {
   margin: 50px;
   width: 50%;
 }
-.lastdiv{
+
+.lastdiv {
   margin: 0;
   background-color: brown;
   height: 200px;
   padding-top: 20px;
-
 }
-button{
+
+button {
   margin: auto auto 25px auto;
   background-color: #39a2db;
   font-size: 20px;
@@ -82,14 +90,38 @@ button{
   color: white;
   border-style: ridge;
 }
-button:hover{
+
+button:hover {
   color: brown;
 }
-a{
+
+a {
   margin: 30px 20px;
   color: white;
   text-decoration: none;
 }
-a:hover{
+
+a:hover {
   color: lightgreen;
+}
+
+@media (max-width:1024px) {
+  .skill {
+    width: 75%;
+    text-align: center;
+  }
+
+  .codeimg {
+    width: 40%;
+    margin-right: 150px;
+  }
+
+  .mathimg {
+    width: 40%;
+  }
+
+  .tain {
+    width: 60%;
+    height: 60%
+  }
 }
